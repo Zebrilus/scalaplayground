@@ -22,8 +22,9 @@ class Rational(n: Int, d: Int) {
     //    if (b == 0)
     //      println(a + "\n====")
     //    else
-    //      println(s"a: $a ; b: $b $a/$b = ${a / b} R ${a % b}")
-    if (b == 0) a else gcd(b, a % b)
+    //println(s"a: $a ; b: $b $a/$b = ${a / b} R ${a % b}")
+    println("Hallo" + math.Pi);
+    if (b == 0) a else gcd(b, a % b)    
   }
 }
 
